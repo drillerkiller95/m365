@@ -1,0 +1,41 @@
+<!-- Office 365 client configuration file sample. To be used for Office 365 ProPlus apps, 
+     Office 365 Business apps, Project Pro for Office 365 and Visio Pro for Office 365. 
+
+     For detailed information regarding configuration options visit: http://aka.ms/ODT. 
+     To use the configuration file be sure to remove the comments
+
+     The following sample allows you to download and install the 64 bit version of the Office 365 ProPlus apps 
+     and Visio Pro for Office 365 directly from the Office CDN using the Current Channel
+     settings  -->
+
+<Configuration>
+	<Add SourcePath="C:\" OfficeClientEdition="64" Channel="Current">
+		<Product ID="O365ProPlusRetail" PIDKEY="FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH">
+			<Language ID="de-DE" />
+			<ExcludeApp ID="ACCESS" />
+			<ExcludeApp ID="Groove" />
+			<ExcludeApp ID="InfoPath"/>
+			<ExcludeApp ID="Lync" />
+			<ExcludeApp ID="LyncCore" />
+			<ExcludeApp ID="OneDrive" />
+			<ExcludeApp ID="OneNote" />
+			<ExcludeApp ID="PowerPoint" />
+			<ExcludeApp ID="Project" />
+			<ExcludeApp ID="Publisher" />
+			<ExcludeApp ID="PubPrimary" />
+			<ExcludeApp ID="SHARED" />
+			<ExcludeApp ID="SharePointDesigner" />
+			<ExcludeApp ID="Skype" />
+			<ExcludeApp ID="Skypeforbusiness" />
+			<ExcludeApp ID="TOOLS" />
+			<ExcludeApp ID="Visio" />
+		</Product>
+		<Product ID="ProofingTools">
+			<Language ID="de-DE" />
+		</Product>
+	</Add>
+	<Updates Enabled="TRUE" Channel="Current" />
+	<RemoveMSI All="TRUE" />
+	<Display Level="Full" AcceptEULA="TRUE" />
+	<Property Name="AUTOACTIVATE" Value="1" />
+</Configuration>
