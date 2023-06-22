@@ -27,6 +27,7 @@
 			<ExcludeApp ID="SharePointDesigner" />
 			<ExcludeApp ID="Skype" />
 			<ExcludeApp ID="Skypeforbusiness" />
+			<ExcludeApp ID="Teams" />
 			<ExcludeApp ID="TOOLS" />
 			<ExcludeApp ID="Visio" />
 		</Product>
